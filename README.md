@@ -9,11 +9,19 @@ This project addresses the development of a candidate recruitment system for a g
 
 ## Technologies used
 ### Back end
+  Python
+  SQL
+    
 ### Front end
+  Figma
+  Tkinter
 
 ## How to execute the project?
+  1. Open and run the "main.py" file in a python language IDE;
+  2. Add candidate data to the registration page;
+  3. Wait for processing until the confirmation page appears.
 
 ## Autor
 
-Carlos Aparecido Flor Filho
-www.linkedin.com/in/carlos-filho-5a0a1a1a7
+  Carlos Aparecido Flor Filho
+  (www.linkedin.com/in/carlos-filho-5a0a1a1a7)

@@ -23,5 +23,6 @@ This project addresses the development of a candidate recruitment system for a g
 
 ## Autor
 
-  Carlos Aparecido Flor Filho
-  (www.linkedin.com/in/carlos-filho-5a0a1a1a7)
+      Carlos Aparecido Flor Filho
+      www.linkedin.com/in/carlos-filho-5a0a1a1a7
+      engcarlosffilho@gmail.com

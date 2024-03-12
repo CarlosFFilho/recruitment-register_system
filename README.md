@@ -2,7 +2,7 @@
 This project addresses the development of a candidate recruitment system for a given company. The data entered on the application page is processed, saved in a cloud SQL database and, at the end, a confirmation page is issued with the candidate's registration ID.
 
 ## Layout
-imagens/recruitment_page_example.png
+![FRONT1](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/recruitment_page_example.png) ![FRONT2] (https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
 
 ## Logic diagram of programming
 

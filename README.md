@@ -2,16 +2,20 @@
 This project addresses the development of a candidate recruitment system for a given company. The data entered on the application page is processed, saved in a cloud SQL database and, at the end, a confirmation page is issued with the candidate's registration ID.
 
 ## Layout
-![FRONT1](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/recruitment_page_example.png) ![FRONT2] (https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
+![FRONT1](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/recruitment_page_example.png)
+
+![FRONT2](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
 
 ## Logic diagram of programming
+![LOGIC](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/logic_diagram_programming.png)
 
 ## SQL database relationship
+![SQL](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/sql_database_relationship.png)
 
 ## Technologies used
 ### Back end
     Python
-    SQL
+    MySQL (phpMyAdmin SQL server)
     
 ### Front end
     Figma
@@ -26,4 +30,4 @@ This project addresses the development of a candidate recruitment system for a g
 
       Carlos Aparecido Flor Filho
       www.linkedin.com/in/carlos-filho-5a0a1a1a7
-      engcarlosffilho@gmail.com
+      Email: engcarlosffilho@gmail.com

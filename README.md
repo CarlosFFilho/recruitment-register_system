@@ -9,12 +9,12 @@ This project addresses the development of a candidate recruitment system for a g
 
 ## Technologies used
 ### Back end
-  Python
-  SQL
+    Python
+    SQL
     
 ### Front end
-  Figma
-  Tkinter
+    Figma
+    Tkinter
 
 ## How to execute the project?
   1. Open and run the "main.py" file in a python language IDE;

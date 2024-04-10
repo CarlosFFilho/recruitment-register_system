@@ -2,14 +2,23 @@
 This project addresses the development of a candidate recruitment system for a given company. The data entered on the application page is processed, saved in a cloud SQL database and, at the end, a confirmation page is issued with the candidate's registration ID.
 
 ## Layout
-![FRONT1](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/recruitment_page_example.png)
 
-![FRONT2](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
+### 1. Login Page
+![FRONT1](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/login_page_example.png)
 
-## Logic diagram of programming
-![LOGIC](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/logic_diagram_programming.png)
+### 2. Register Page
+![FRONT2](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/register_page_example.png)
 
-## SQL database relationship
+### 3. Recruitment Page
+![FRONT3](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/recruitment_page_example.png)
+
+### 4. Confirmation Page
+![FRONT4](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
+
+## Project Diagram
+![LOGIC](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/diagram.png)
+
+## SQL database relationship (phpMyAdmin)
 ![SQL](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/sql_database_relationship.png)
 
 ## Technologies used
@@ -22,9 +31,17 @@ This project addresses the development of a candidate recruitment system for a g
     Tkinter
 
 ## How to execute this project?
-  1. Open and run the "main.py" file in a python language IDE;
-  2. Add candidate data to the registration page;
-  3. Wait for processing until the confirmation page appears.
+  1. Create a MySQL database locally or in the cloud, following the scheme previously explained. In this example, a MySQL database was created in the cloud via phpMyAdmin, which could also be controlled locally via MySQL workbench;
+  
+  2. Make sure the connection credentials between API and Database are correct;
+  
+  3. Open and run the "login_page.py" file in a python language IDE;
+  
+  4. If you have registered, enter your login and password. Otherwise, click "I don't have a register";
+  
+  5. Add candidate data to the registration page;
+  
+  6. Wait for processing until the confirmation page appears.
 
 ## Author
 

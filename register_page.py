@@ -1,6 +1,5 @@
 from tkinter import *
 import controller as ctl
-#from login_page import *
 
 
 # NEW USER REGISTRATION SCREEN
@@ -14,8 +13,6 @@ def registry():
         ctl.register_new_user(entry2.get(), entry1.get(), entry0.get())
         
         window4.destroy()
-        
-        #login()
         
     
     window4 = Tk()

@@ -8,11 +8,11 @@ import MySQLdb
 app = Flask(__name__)
 
 def db_connection():
-    con = MySQLdb.connect(host= "sql10.freesqldatabase.com",
-                            database= "sql10697831",
-                            user= "sql10697831",
-                            password= "RWvxcxPLjK",
-                            port = 3306)
+    con = MySQLdb.connect(host= "host",
+                            database= "database",
+                            user= "user",
+                            password= "password",
+                            port = "port")
     return con
 
 

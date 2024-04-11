@@ -11,11 +11,6 @@ import mysql.connector
 from sql import *
 
 
-# IMPORTING INFORMATIONS FROM THE APPLICATION PAGE
-
-#from initial_page import *
-
-
 # IMPORTING MICROSERVICES
 
 import person_service as pserv
@@ -65,28 +60,3 @@ def login_inf(email, password):
 def register_new_user(name, email, password):
     
     autserv.register_users(name, email, password)
-
-
-# INITIAL DATA FEED (Will be replaced by the data entered when executing this application)
-
-#Name = "Fulano"
-#Identity = "12345678912"
-#Type_identity = "CPF"
-#Phone_number = "000000000"
-#Email_address = "fulano_mail"
-#Driving_licence = "YES"
-#Driving_licence_class = "B"
-#Educational_level = "level"
-#Course = "Course"
-#Institution = "Institution"
-#Year_of_course_completion = "2000"
-#English_language = "YES"
-#Street = "Street a"
-#City = "City"
-#State = "State"
-#Postal_code = "00000000"
-#Country = "Country"
-#Avaliable_for_change = "YES"
-#Chemical_industry_years = 5
-#Last_position = "Position"
-#Performed_activities = "aaaaaaaaa"

@@ -13,11 +13,11 @@ app_auth = Flask(__name__)
 def conectar_bd():
     
     return mysql.connector.connect(
-        host="sql10.freesqldatabase.com",
-        user="sql10697831",
-        password="RWvxcxPLjK",
-        database="sql10697831",
-        port=3306
+        host="host",
+        user="user",
+        password="password",
+        database="database",
+        port="port"
     )
 
 

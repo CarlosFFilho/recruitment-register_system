@@ -48,12 +48,6 @@ def initial(expiration):
         now_brazil = now.replace(tzinfo=pytz.utc).astimezone(time_zone_brazil)
         
         if now_brazil < expiration:
-        
-#            p1 = ct.Person(Name, Identity, Type_identity, Phone_number, Email_address, Driving_licence, Driving_licence_class)
-#            e1 = ct.Education(Identity, Educational_level, Course, Institution, Year_of_course_completion, English_language)
-#            a1 = ct.Address(Identity, Street, City, State, Postal_code, Country, Avaliable_for_change)
-#            pe1 = ct.ProfessionalExperience(Identity, Chemical_industry_years, Last_position, Performed_activities)
-            
             
             ctl.Save_Sql_education(Identity, Educational_level, Course, Institution, Year_of_course_completion, English_language)
             

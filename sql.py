@@ -3,6 +3,7 @@
 from flask import Flask
 import MySQLdb
 
+
 # CONNECTING TO THE DATABASE SERVER
 
 app = Flask(__name__)
@@ -35,6 +36,7 @@ def insert_data(values, table):
 
     return "Data entered successfully"
 
+
 # DATABASE QUERY MECHANISM
 
 @app.route('/consult')
@@ -50,6 +52,7 @@ def consult_data(column, table, identity_confirm):
     c.execute(query2)
     
     return c.fetchall()
+
 
 if __name__ == '__main__':
     app.run(debug=True)

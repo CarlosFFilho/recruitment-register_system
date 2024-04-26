@@ -37,12 +37,12 @@ def registry():
         relief = "ridge")
     canvas.place(x = 0, y = 0)
     
-    background4_img = PhotoImage(file = f"imagens/background4.png")
+    background4_img = PhotoImage(file = f"images/background4.png")
     background4 = canvas.create_image(
         217.0, 133.0,
         image=background4_img)
     
-    entry0_img = PhotoImage(file = f"imagens/img_textBox02.png")
+    entry0_img = PhotoImage(file = f"images/img_textBox02.png")
     entry0_bg = canvas.create_image(
         245.5, 145.5,
         image = entry0_img)
@@ -57,7 +57,7 @@ def registry():
         width = 105,
         height = 9)
     
-    entry1_img = PhotoImage(file = f"imagens/img_textBox122.png")
+    entry1_img = PhotoImage(file = f"images/img_textBox122.png")
     entry1_bg = canvas.create_image(
         235.0, 118.5,
         image = entry1_img)
@@ -72,7 +72,7 @@ def registry():
         width = 126,
         height = 9)
     
-    entry2_img = PhotoImage(file = f"imagens/img_textBox22.png")
+    entry2_img = PhotoImage(file = f"images/img_textBox22.png")
     entry2_bg = canvas.create_image(
         235.0, 89.5,
         image = entry2_img)
@@ -87,7 +87,7 @@ def registry():
         width = 126,
         height = 9)
     
-    img02 = PhotoImage(file = f"imagens/img02.png")
+    img02 = PhotoImage(file = f"images/img02.png")
     b02 = Button(
         image = img02,
         borderwidth = 0,

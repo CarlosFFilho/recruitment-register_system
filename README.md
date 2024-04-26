@@ -16,7 +16,7 @@ This project addresses the development of a candidate recruitment system for a g
 ![FRONT4](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
 
 ## Project Diagram
-![LOGIC](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/diagram.png)
+![LOGIC](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/diagram_of_project.png)
 
 ## SQL database relationship (phpMyAdmin)
 ![SQL](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/sql_database_relationship.png)

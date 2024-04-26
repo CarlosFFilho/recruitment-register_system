@@ -70,7 +70,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         relief = "ridge")
     canvas.place(x = 0, y = 0)
     
-    background_img = PhotoImage(file = f"imagens/background.png")
+    background_img = PhotoImage(file = f"images/background.png")
     background = canvas.create_image(
         170.0, 279.0,
         image=background_img)
@@ -207,7 +207,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         fill = "#ffffff",
         font = ("None", int(10.0)))
     
-    img0 = PhotoImage(file = f"imagens/img0.png")
+    img0 = PhotoImage(file = f"images/img0.png")
     b0 = Button(
         image = img0,
         borderwidth = 0,
@@ -221,7 +221,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         height = 21)
     
     
-    entry0_img = PhotoImage(file = f"imagens/img_textBox0.png")
+    entry0_img = PhotoImage(file = f"images/img_textBox0.png")
     entry0_bg = canvas.create_image(
         205.0, 474.0,
         image = entry0_img)
@@ -236,7 +236,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 152,
         height = 11)
     
-    entry1_img = PhotoImage(file = f"imagens/img_textBox1.png")
+    entry1_img = PhotoImage(file = f"images/img_textBox1.png")
     entry1_bg = canvas.create_image(
         212.0, 454.0,
         image = entry1_img)
@@ -251,7 +251,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 138,
         height = 11)
     
-    entry2_img = PhotoImage(file = f"imagens/img_textBox2.png")
+    entry2_img = PhotoImage(file = f"images/img_textBox2.png")
     entry2_bg = canvas.create_image(
         198.5, 434.0,
         image = entry2_img)
@@ -266,7 +266,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 131,
         height = 11)
     
-    entry3_img = PhotoImage(file = f"imagens/img_textBox3.png")
+    entry3_img = PhotoImage(file = f"images/img_textBox3.png")
     entry3_bg = canvas.create_image(
         250.0, 391.0,
         image = entry3_img)
@@ -283,7 +283,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 120,
         height = 18)
     
-    entry4_img = PhotoImage(file = f"imagens/img_textBox4.png")
+    entry4_img = PhotoImage(file = f"images/img_textBox4.png")
     entry4_bg = canvas.create_image(
         243.5, 371.0,
         image = entry4_img)
@@ -298,7 +298,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 110,
         height = 11)
     
-    entry5_img = PhotoImage(file = f"imagens/img_textBox5.png")
+    entry5_img = PhotoImage(file = f"images/img_textBox5.png")
     entry5_bg = canvas.create_image(
         261.0, 351.0,
         image = entry5_img)
@@ -313,7 +313,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 46,
         height = 11)
     
-    entry6_img = PhotoImage(file = f"imagens/img_textBox6.png")
+    entry6_img = PhotoImage(file = f"images/img_textBox6.png")
     entry6_bg = canvas.create_image(
         134.5, 351.0,
         image = entry6_img)
@@ -328,7 +328,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 63,
         height = 11)
     
-    entry7_img = PhotoImage(file = f"imagens/img_textBox7.png")
+    entry7_img = PhotoImage(file = f"images/img_textBox7.png")
     entry7_bg = canvas.create_image(
         217.0, 331.0,
         image = entry7_img)
@@ -345,7 +345,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 128,
         height = 18)
     
-    entry8_img = PhotoImage(file = f"imagens/img_textBox8.png")
+    entry8_img = PhotoImage(file = f"images/img_textBox8.png")
     entry8_bg = canvas.create_image(
         190.5, 287.0,
         image = entry8_img)
@@ -362,7 +362,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 99,
         height = 18)
     
-    entry9_img = PhotoImage(file = f"imagens/img_textBox9.png")
+    entry9_img = PhotoImage(file = f"images/img_textBox9.png")
     entry9_bg = canvas.create_image(
         260.5, 267.0,
         image = entry9_img)
@@ -377,7 +377,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 51,
         height = 11)
     
-    entry10_img = PhotoImage(file = f"imagens/img_textBox10.png")
+    entry10_img = PhotoImage(file = f"images/img_textBox10.png")
     entry10_bg = canvas.create_image(
         145.0, 267.0,
         image = entry10_img)
@@ -392,7 +392,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 32,
         height = 11)
     
-    entry11_img = PhotoImage(file = f"imagens/img_textBox11.png")
+    entry11_img = PhotoImage(file = f"images/img_textBox11.png")
     entry11_bg = canvas.create_image(
         250.0, 247.0,
         image = entry11_img)
@@ -407,7 +407,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 67,
         height = 11)
     
-    entry12_img = PhotoImage(file = f"imagens/img_textBox12.png")
+    entry12_img = PhotoImage(file = f"images/img_textBox12.png")
     entry12_bg = canvas.create_image(
         130.5, 247.0,
         image = entry12_img)
@@ -422,7 +422,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 71,
         height = 11)
     
-    entry13_img = PhotoImage(file = f"imagens/img_textBox13.png")
+    entry13_img = PhotoImage(file = f"images/img_textBox13.png")
     entry13_bg = canvas.create_image(
         195.5, 227.0,
         image = entry13_img)
@@ -437,7 +437,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 183,
         height = 11)
     
-    entry14_img = PhotoImage(file = f"imagens/img_textBox14.png")
+    entry14_img = PhotoImage(file = f"images/img_textBox14.png")
     entry14_bg = canvas.create_image(
         229.5, 184.0,
         image = entry14_img)
@@ -454,7 +454,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 99,
         height = 18)
     
-    entry15_img = PhotoImage(file = f"imagens/img_textBox15.png")
+    entry15_img = PhotoImage(file = f"images/img_textBox15.png")
     entry15_bg = canvas.create_image(
         253.0, 164.0,
         image = entry15_img)
@@ -471,7 +471,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 86,
         height = 18)
     
-    entry16_img = PhotoImage(file = f"imagens/img_textBox16.png")
+    entry16_img = PhotoImage(file = f"images/img_textBox16.png")
     entry16_bg = canvas.create_image(
         193.0, 144.0,
         image = entry16_img)
@@ -486,7 +486,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 186,
         height = 11)
     
-    entry17_img = PhotoImage(file = f"imagens/img_textBox17.png")
+    entry17_img = PhotoImage(file = f"images/img_textBox17.png")
     entry17_bg = canvas.create_image(
         216.0, 124.0,
         image = entry17_img)
@@ -501,7 +501,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 180,
         height = 11)
     
-    entry18_img = PhotoImage(file = f"imagens/img_textBox18.png")
+    entry18_img = PhotoImage(file = f"images/img_textBox18.png")
     entry18_bg = canvas.create_image(
         268.0, 104.0,
         image = entry18_img)
@@ -518,7 +518,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 60,
         height = 18)
     
-    entry19_img = PhotoImage(file = f"imagens/img_textBox19.png")
+    entry19_img = PhotoImage(file = f"images/img_textBox19.png")
     entry19_bg = canvas.create_image(
         137.5, 104.0,
         image = entry19_img)
@@ -533,7 +533,7 @@ Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed
         width = 67,
         height = 11)
     
-    entry20_img = PhotoImage(file = f"imagens/img_textBox20.png")
+    entry20_img = PhotoImage(file = f"images/img_textBox20.png")
     entry20_bg = canvas.create_image(
         197.5, 84.0,
         image = entry20_img)

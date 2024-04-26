@@ -18,7 +18,7 @@ def confirm_page (identity_confirm, id_confirm):
         relief = "ridge")
     canvas.place(x = 0, y = 0)
     
-    background2_img = PhotoImage(file = f"imagens/background2.png")
+    background2_img = PhotoImage(file = f"images/background2.png")
     background = canvas.create_image(
         217.0, 133.0,
         image=background2_img)

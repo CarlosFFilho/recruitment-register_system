@@ -45,12 +45,12 @@ def login():
         relief = "ridge")
     canvas.place(x = 0, y = 0)
     
-    background3_img = PhotoImage(file = f"imagens/background3.png")
+    background3_img = PhotoImage(file = f"images/background3.png")
     background3 = canvas.create_image(
         217.0, 133.0,
         image=background3_img)
     
-    entry0_img = PhotoImage(file = f"imagens/img_textBox01.png")
+    entry0_img = PhotoImage(file = f"images/img_textBox01.png")
     entry0_bg = canvas.create_image(
         232.5, 102.5,
         image = entry0_img)
@@ -65,7 +65,7 @@ def login():
         width = 119,
         height = 11)
     
-    entry1_img = PhotoImage(file = f"imagens/img_textBox111.png")
+    entry1_img = PhotoImage(file = f"images/img_textBox111.png")
     entry1_bg = canvas.create_image(
         243.0, 139.5,
         image = entry1_img)
@@ -80,7 +80,7 @@ def login():
         width = 98,
         height = 11)
     
-    img0 = PhotoImage(file = f"imagens/img01.png")
+    img0 = PhotoImage(file = f"images/img01.png")
     b0 = Button(
         image = img0,
         borderwidth = 0,
@@ -93,7 +93,7 @@ def login():
         width = 46,
         height = 29)
     
-    img1 = PhotoImage(file = f"imagens/img11.png")
+    img1 = PhotoImage(file = f"images/img11.png")
     b1 = Button(
         image = img1,
         borderwidth = 0,

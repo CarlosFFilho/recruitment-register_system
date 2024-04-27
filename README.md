@@ -4,15 +4,23 @@ This project addresses the development of a candidate recruitment system for a g
 ## Layout
 
 ### 1. Login Page
+The login page requires the user's email and password. If the user doesn't have a registration, the user can go to the option "I don't have a register".
+
 ![FRONT1](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/login_page_example.png)
 
 ### 2. Register Page
+The registration page requires user name, email and password informations. After this, the user will be able to log in to the system.
+
 ![FRONT2](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/register_page_example.png)
 
 ### 3. Recruitment Page
+The recruitment page requires personal informations, address, educational informations and professional experiences of the person to be registered.
+
 ![FRONT3](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/recruitment_page_example.png)
 
 ### 4. Confirmation Page
+The confirmation page issues the ID and identity confirming the user's registration.
+
 ![FRONT4](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/confirmation_page_example.png)
 
 ## Project Diagram

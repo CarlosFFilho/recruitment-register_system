@@ -66,7 +66,7 @@ The confirmation page issues the ID and identity confirming the user's registrat
                     listen 80;   
                     server_name <INSTANCE_EC2_IP>;    
                     location / {        
-                        proxy_pass http://127.0.0.1:8000;    
+                        proxy_pass http://127.0.0.1:5000;    
                     }
              }
 

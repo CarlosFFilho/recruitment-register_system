@@ -7,11 +7,11 @@ import mysql.connector
 
 def db_connection():
 
-    con = mysql.connector.connect(host= "sql10.freesqldatabase.com",
-                            database= "sql10702231",
-                            user= "sql10702231",
-                            password= "ZiSsCU7lSs",
-                            port = 3306)
+    con = mysql.connector.connect(host= "host",
+                            database= "database",
+                            user= "user",
+                            password= "password",
+                            port = "port")
     return con
 
 

@@ -32,7 +32,8 @@ The confirmation page issues the ID and identity confirming the user's registrat
 ## Technologies used
 ### Back end
     Python
-    MySQL (phpMyAdmin SQL server)
+    MySQL (phpMyAdmin MySQL server)
+    AWS instance (Amazon Web Services)
     
 ### Front end
     Figma
@@ -42,17 +43,54 @@ The confirmation page issues the ID and identity confirming the user's registrat
   1. Create a MySQL database locally or in the cloud, following the scheme previously explained. In this example, a MySQL database was created in the cloud via phpMyAdmin, which could also be controlled locally via MySQL workbench;
   
   2. Make sure the connection credentials between API and Database are correct;
+    
+  3. Instantiate the "api" directory in AWS, following the steps below;
+
+         Step 1: place the "api" directory in a github repository;
+     
+         Step 2: Create profile and EC2 instance on AWS;
+     
+         Step 3: Download and install PUTTY to manage the AWS instance;
+
+         Step 4: Generate a private key in the PUTTYgen and create session in the PUTTY;
+     
+         Step 5: Clone the Git repository in the instance using PUTTY;
+
+             git clone <http link of repository>
+     
+         Step 6: Use Nginx and Gunicorn so that the AWS instance IP is used on the local server.
+
+             sudo vim /etc/nginx/sites-enabled/flask_nginx
+
+             server {
+                    listen 80;   
+                    server_name <INSTANCE_EC2_IP>;    
+                    location / {        
+                        proxy_pass http://127.0.0.1:8000;    
+                    }
+             }
+
+             sudo service nginx restart
+
+             gunicorn --bind 127.0.0.1:8000 controller:app_control
+     
   
-  3. Open and run the "login_page.py" file in a python language IDE;
+  5. Insert the AWS instance IP in the urls of the "front_connector.py" file ("app" directory);
   
-  4. If you have registered, enter your login and password. Otherwise, click "I don't have a register";
+  6. Run the "login_page.py" file in a Python IDE;
   
-  5. Add candidate data to the registration page;
+  7. Enter the information requested by the application;
   
-  6. Wait for processing until the confirmation page appears.
+  8. Wait for processing until the confirmation page appears.
+
+OBS: The file "app.exe" can only be executed successfully with the IP logged in by the author. Therefore, it is advisable to follow the execution steps mentioned above or create a new executable, with the IP inserted appropriately, using the "PyInstaller" library.
 
 ## Author
 
       Carlos Aparecido Flor Filho
       www.linkedin.com/in/carlos-filho-5a0a1a1a7
       Email: engcarlosffilho@gmail.com
+
+## Thanks
+
+    Mario Henrique: Assistance and discussions during the preparation of this project.

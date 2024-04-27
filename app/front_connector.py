@@ -16,7 +16,7 @@ import confirmation_page as cop
 
 def load_login(email, password):
     
-    url = f'http://54.226.43.108/frontlogin'
+    url = f'http://<Instance_IP>/frontlogin'
 
     credentials = {'email': email, 'password': password}
 
@@ -63,7 +63,7 @@ def load_confirmation(expiration, identity_confirm, id_confirm):
 
 def load_register(name, email, password):
 
-    url = f'http://54.226.43.108/frontregister'
+    url = f'http://<Instance_IP>/frontregister'
 
     credentials = {'name': name, 'email': email, 'password': password}
 
@@ -84,7 +84,7 @@ def load_initial(Name, Identity, Type_identity, Phone_number, Email_address, Dri
 Educational_level, Course, Institution, Year_of_course_completion, English_language, Street, City, State, Postal_code, 
 Country, Avaliable_for_change, Chemical_industry_years, Last_position, Performed_activities):
 
-    url = f'http://54.226.43.108/frontinitial'
+    url = f'http://<Instance_IP>/frontinitial'
 
     credentials = {'Name': Name, 'Identity': Identity, 'Type_identity': Type_identity, 'Phone_number': Phone_number, 'Email_address': Email_address, 'Driving_licence': Driving_licence, 'Driving_licence_class': Driving_licence_class, 
 'Educational_level': Educational_level, 'Course': Course, 'Institution': Institution, 'Year_of_course_completion': Year_of_course_completion, 'English_language': English_language, 'Street': Street, 'City': City, 'State': State, 'Postal_code': Postal_code, 

@@ -4,22 +4,22 @@ This project addresses the development of a candidate recruitment system for a g
 ## Layout
 
 ### 1. Login Page
-![FRONT1](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/login_page_example.png)
+![FRONT1](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/login_page_example.png)
 
 ### 2. Register Page
-![FRONT2](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/register_page_example.png)
+![FRONT2](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/register_page_example.png)
 
 ### 3. Recruitment Page
-![FRONT3](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/recruitment_page_example.png)
+![FRONT3](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/recruitment_page_example.png)
 
 ### 4. Confirmation Page
-![FRONT4](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/confirmation_page_example.png)
+![FRONT4](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/confirmation_page_example.png)
 
 ## Project Diagram
-![LOGIC](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/diagram_of_project.png)
+![LOGIC](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/diagram_of_project.png)
 
 ## SQL database relationship (phpMyAdmin)
-![SQL](https://github.com/CarlosFFilho/recruitment_system/blob/main/imagens/sql_database_relationship.png)
+![SQL](https://github.com/CarlosFFilho/recruitment-register_system/blob/main/app/images/sql_database_relationship.png)
 
 ## Technologies used
 ### Back end

@@ -72,7 +72,7 @@ The confirmation page issues the ID and identity confirming the user's registrat
 
              sudo service nginx restart
 
-             gunicorn --bind 127.0.0.1:8000 controller:app_control
+             gunicorn --bind 127.0.0.1:5000 controller:app_control
      
   
   5. Insert the AWS instance IP in the urls of the "front_connector.py" file ("app" directory);
